@@ -1,13 +1,6 @@
 ## 基于webGL的关系图
 支持大量数据展示
 
-## 安装
-```text
-npm set registry http://172.25.20.65:4873
-npm i @pci/graph-gl
-or
-yarn add @pci/graph-gl
-```
 
 ## 接口说明
 

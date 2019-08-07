@@ -1,10 +1,10 @@
 {
-    "name": "@pci/graph-gl",
+    "name": "graph-gl",
     "version": "1.0.0",
     "description": "relation-graph base on webGL",
     "main": "dist/main.js",
     "module": "dist/main.js",
-    "author": "yangguang1",
+    "author": "yangguang",
     "sideEffects": false,
     "typings": "index.d.ts",
     "files": [
@@ -47,7 +47,7 @@
     },
     "license": "ISC",
     "repository": {
-        "type": "svn",
-        "url": "http://10.200.100.199/svn/publiclib/源码管理/web/trunk/npm_projects/graph-gl"
+        "type": "git",
+        "url": "https://github.com/seanuu/graph-gl"
     }
 }
