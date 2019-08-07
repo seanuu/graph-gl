@@ -1,0 +1,47 @@
+.circle-menu {
+    z-index: 999;
+}
+
+.menu-item {
+    pointer-events: all;
+    cursor: pointer;
+    //// 一级菜单配置
+    //.first-menu-item-path {
+    //    fill: rgba(238, 238, 238, 0.8);
+    //    stroke: rgba(255, 255, 255, 0);
+    //    stroke-width: 1px;
+    //    pointer-events: all;
+    //}
+    &:hover {
+        .menu-item-text {
+            fill: #ff1a1c;
+        }
+
+        .menu-item-path {
+            fill: rgba(245, 245, 245, 0.95);
+            stroke: rgba(245, 245, 245, 0.95);
+        }
+    }
+
+    &-text {
+        cursor: inherit;
+        font-weight: bold;
+    }
+
+    &-path {
+        fill: rgba(255, 255, 255, 0.95);
+        stroke: rgba(0, 0, 0, 0.05);
+        stroke-width: 1px;
+        pointer-events: all;
+    }
+
+    &-caret {
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    &-sign {
+        //fill: rgba(225, 225, 225, 1);
+        opacity: 0.25;
+    }
+
+}
